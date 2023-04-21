@@ -1,7 +1,14 @@
 body{
   margin: 0px;
   padding: 0px;
-  background: #000;
+ -webkit-background-size:cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url(picture.jpeg) no-repeat center/cover;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:rgb(255,255,255,0)*/
 }
 
 p{
@@ -12,7 +19,7 @@ p{
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  background: url(picture.jpeg) no-repeat center/cover;
+  background: url(kaira.jpg) no-repeat center/cover;
   background-attachment: fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color:rgb(255,255,255,0)
