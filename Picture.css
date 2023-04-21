@@ -12,8 +12,8 @@ body{
 }
 
 p{
-  font-size: 1px;
-  line-height: 8px;
+  font-size: 12px;
+  line-height: 15px;
   text-align: justify;
   -webkit-background-size:cover;
   background-size:cover;
